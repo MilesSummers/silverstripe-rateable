@@ -54,8 +54,10 @@
 						'readOnly' : true,
 						'score' : data.averagescore
 					});
+					
 
 					self.addClass('disabled');
+					numratings++;
 					ShowMessage(data.message);
 				});
 			});
