@@ -81,8 +81,12 @@ class Rateable extends DataExtension {
 		if(!$this->owner->checkRatingsEnabled()) return;
 
 		$this->htmlIdPostfix = $htmlIdPostfix;
+		
+		$jquery = $this->owner->config()->get('IncludeJQuery');
+		Requirements::set_force_js_to_bottom(true);
+		
+		if($jquery) Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 
-		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 		Requirements::javascript(RATEABLE_MODULE . '/javascript/jquery.raty.js');
 		Requirements::javascript(RATEABLE_MODULE . '/javascript/rateable.js');
 			
