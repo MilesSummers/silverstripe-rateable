@@ -1,13 +1,17 @@
 {
-	"name": "sheadawson/silverstripe-rateable",
+	"name": "milessummers/silverstripe-rateable",
 	"description": "An extension that adds a star rating system + UI to any DataObject type.",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "rating"],
-	"homepage": "http://github.com/sheadawson/silverstripe-rateable",
+	"homepage": "http://github.com/MilesSummers/silverstripe-rateable",
 	"authors": [
 	{
 		"name": "Shea Dawson",
 		"email": "shea@silverstripe.com.au"
+	},
+	{
+		"name": "Miles Summers",
+		"email": "milessummers@secasa.com.au"
 	}
 	],
 	"require":
