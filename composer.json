@@ -5,20 +5,16 @@
 	"keywords": ["silverstripe", "rating"],
 	"homepage": "http://github.com/MilesSummers/silverstripe-rateable",
 	"authors": [
-	{
+		{
 		"name": "Shea Dawson",
 		"email": "shea@silverstripe.com.au"
-	},
-	{
-		"name": "Miles Summers",
-		"email": "milessummers@secasa.com.au"
-	}
+		}
 	],
 	"require":
 	{
 		"composer/installers": "*",
-		"silverstripe/framework": "~3.3.2",
-		"silverstripe/cms": "~3.3.2"
+		"silverstripe/framework": "^3.3.2",
+		"silverstripe/cms": "^3.3.2"
 	},
 	"extra": {
 		"installer-name": "rateable"
